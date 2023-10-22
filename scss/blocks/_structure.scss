@@ -69,6 +69,7 @@
 .coo-wrapper {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 30px;
     justify-content: center;
 }
 
@@ -200,6 +201,7 @@
     .coo-wrapper {
         display: flex;
         flex-wrap: wrap;
+        row-gap: 0;
         justify-content: space-evenly;
     }
 
