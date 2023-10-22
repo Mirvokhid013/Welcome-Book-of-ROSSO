@@ -17,13 +17,13 @@
                 <nav class="site-header__nav nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="" class="nav__link">О компании</a>
+                            <a href="#about_company" class="nav__link">О компании</a>
                         </li>
                         <li class="nav__item">
-                            <a href="" class="nav__link">Организационная структура</a>
+                            <a href="#structure" class="nav__link">Организационная структура</a>
                         </li>
                         <li class="nav__item">
-                            <a href="" class="nav__link">Правила поведения сотрудников</a>
+                            <a href="#" class="nav__link">Правила поведения сотрудников</a>
                         </li>
                     </ul>
                 </nav>
@@ -31,7 +31,7 @@
         </div>
     </header>
     <main class="site-main">
-        <section class="site-main__hero hero">
+        <section id="about_company" class="site-main__hero hero">
             <div class="container">
                 <div class="hero__inner">
                     <h1 class="hero__title">О компании</h1>
@@ -67,45 +67,247 @@
                 </div>
             </div>
         </section>
-        <section class="site-main__structure structure">
+        <section id="structure" class="site-main__structure structure">
             <div class="container">
                 <div class="structure__inner">
                     <h2 class="structure__title">СОВЕТ УЧРЕДИТЕЛЕЙ</h2>
                     <ul class="structure__list list">
-                        <li class="list__item" data-aos="zoom-out-up" data-aos-duration="1500">
+                        <div class="coo-wrapper">
+                            <li class="list__item" data-aos="zoom-out-up" data-aos-duration="1500">
+                                <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                <div class="list_item-wrapper">
+                                    <strong class="list__name">Алишер Талибжанов</strong>
+                                    <p class="list__position">CEO / Генеральный директор</p>
+                                </div>
+                            </li>
+                            <li class="list__item" data-aos="zoom-out-up" data-aos-duration="1500">
+                                <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                <div class="list_item-wrapper">
+                                    <strong class="list__name">Рустам Аббасов</strong>
+                                    <p class="list__position">COO / <br> Зам/Генерального директора</p>
+                                </div>
+                            </li>
+                        </div>
+                        <li class="list__item maneger" data-aos="zoom-out-up" data-aos-duration="1500">
                             <img src="./images/img.jpg" alt="Position's photo" class="list__img">
-                            <p class="list__position">CEO / Генеральный директор</p>
-                            <strong class="list__name">Алишер Талибжанов</strong>
+                            <div class="list_item-wrapper">
+                                <strong class="list__name">Шахло Пулатова</strong>
+                                <p class="list__position">Помощник Ген. Директора / Офис Менеджер</p>
+                            </div>
                         </li>
-                        <li class="list__item" data-aos="zoom-out-up" data-aos-duration="1500">
-                            <img src="./images/img.jpg" alt="Position's photo" class="list__img">
-                            <p class="list__position">CEO / Генеральный директор</p>
-                            <strong class="list__name">Алишер Талибжанов</strong>
+                    </ul>
+                    <h3 class="departments__list-title">Департаменты</h3>
+                    <ul class="departments__list">
+                        <li class="departments__item cpo_block">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn br1"></button>
+                                <h4 class="departments__name cpo_name">
+                                    СPO
+                                </h4>
+                                <button type="button" class="show-btn bsh1"></button>
+                            </div>
+                            <ul class="departments__cards cpo_depart">
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Вакант</strong>
+                                        <p class="list__position">Зам.Директора по Производству</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Тимур Шафиков</strong>
+                                        <p class="list__position">Руководитель Производста ТВ (Коканд)</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Абдугафур Тоиров</strong>
+                                        <p class="list__position">Руководитель Производста Стиральных Машин (Ташкент)</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Шохбоз Шаниязов</strong>
+                                        <p class="list__position">Руководитель Производста Кухонных Плит (Коканд)</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Вакант</strong>
+                                        <p class="list__position">Служба R&D</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Вакант</strong>
+                                        <p class="list__position">Менеджер по soft разработкам</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Вакант</strong>
+                                        <p class="list__position">Менеджер по hard разработкам</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
-                        <li class="list__item" data-aos="zoom-out-up" data-aos-duration="1500">
-                            <img src="../images/img.jpg" alt="Position's photo" class="list__img">
-                            <p class="list__position">CEO / Генеральный директор</p>
-                            <strong class="list__name">Алишер Талибжанов</strong>
+                        <li class="departments__item cfo_block">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn br2"></button>
+                                <h4 class="departments__name cpo_name">
+                                    CFO
+                                </h4>
+                                <button type="button" class="show-btn bsh2"></button>
+                            </div>
+                            <ul class="departments__cards cfo_depart">
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">------</strong>
+                                        <p class="list__position">Зам.Директора по Финансам</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Сардор Алиматов</strong>
+                                        <p class="list__position">Планирование, Мониторинг и Бюджетирование</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Абдугафур Джабборов</strong>
+                                        <p class="list__position">Менеджер по Финансам</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Акмал Джураев</strong>
+                                        <p class="list__position">Кассир</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Вакант</strong>
+                                        <p class="list__position">Гл.Бухгалтер</p>
+                                    </div>
+                                </li>
+                                <li class="depart__item">
+                                    <img src="./images/img.jpg" alt="Position's photo" class="list__img">
+                                    <div class="list_item-wrapper">
+                                        <strong class="list__name">Алфия Шафикова</strong>
+                                        <p class="list__position">Бухгалтер</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
-                        <li class="list__item" data-aos="zoom-out-up" data-aos-duration="1500">
-                            <img src="../images/img.jpg" alt="Position's photo" class="list__img">
-                            <p class="list__position">CEO / Генеральный директор</p>
-                            <strong class="list__name">Алишер Талибжанов</strong>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    CCO
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
                         </li>
-                        <li class="list__item" data-aos="zoom-out-up" data-aos-duration="1500">
-                            <img src="../images/img.jpg" alt="Position's photo" class="list__img">
-                            <p class="list__position">CEO / Генеральный директор</p>
-                            <strong class="list__name">Алишер Талибжанов</strong>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    Отдел контроля качества
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
                         </li>
-                        <li class="list__item" data-aos="zoom-out-up" data-aos-duration="1500">
-                            <img src="../images/img.jpg" alt="Position's photo" class="list__img">
-                            <p class="list__position">CEO / Генеральный директор</p>
-                            <strong class="list__name">Алишер Талибжанов</strong>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    Департамент Снабжения и Логистики
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
+                        </li>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    СОО
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
+                        </li>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    Отдел Послепродажного Обслуживание
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
+                        </li>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    Службы Безопасности (втч. ОТ и ТБ)
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
+                        </li>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    Службы Видеонаблюдения
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
+                        </li>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    Отдел Управления Персоналом
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
+                        </li>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    Юристконсульт
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
+                        </li>
+                        <li class="departments__item">
+                            <div class="department__wrapper">
+                                <button type="button" class="reset-btn"></button>
+                                <h4 class="departments__name cpo_name">
+                                    Административно-хозяйственного отдел
+                                </h4>
+                                <button type="button" class="show-btn"></button>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
+        
+        
+        
     </main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
