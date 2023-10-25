@@ -640,7 +640,7 @@ h1, h2, h3, h4, h5, h6, p {
   max-width: 380px;
   width: 100%;
   padding: 20px;
-  background-color: #f7f1f1;
+  background-color: #e04444;
   box-shadow: 0px 4px 14px 0px #cde3ef;
   border-radius: 10px;
 }
@@ -650,6 +650,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 140px;
   height: 140px;
   margin: 0 auto;
+  border: 2px solid #fff;
   border-radius: 50%;
 }
 
@@ -660,7 +661,7 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  color: #000;
+  color: #fff;
 }
 
 .list__name {
@@ -669,8 +670,8 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
-  border-bottom: 2px solid #000;
-  color: #000;
+  border-bottom: 2px solid #fff;
+  color: #fff;
 }
 
 .coo-wrapper {
@@ -690,8 +691,8 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
-  border-bottom: 2px solid #000;
-  color: #000;
+  border-bottom: 2px solid #fff;
+  color: #fff;
 }
 
 .departments__list {
@@ -771,6 +772,17 @@ h1, h2, h3, h4, h5, h6, p {
 
 .rotated {
   transform: rotate(180deg);
+}
+
+.site-main__iframe {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.iframe__link {
+  max-width: 1200px;
+  width: 100%;
+  height: 500px;
 }
 
 @media only screen and (min-width: 520px) {
