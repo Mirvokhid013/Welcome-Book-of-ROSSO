@@ -690,7 +690,7 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #000;
   color: #000;
 }
 
@@ -722,8 +722,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .departments__name {
   color: #333;
-  text-align: center;
-  font-size: 26px;
+  text-align: left;
+  font-size: 16px;
 }
 
 .block__style {
@@ -740,27 +740,16 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 20px;
 }
 
-.reset-btn {
-  width: 40px;
-  height: 40px;
-  background-image: url("../../images/free-icon-minus-2734848.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: none;
-  background-color: transparent;
-  border-radius: 50%;
-}
-
 .show-btn {
   width: 40px;
   height: 40px;
-  background-image: url("../../images/free-icon-plus-3303893.png");
+  background-image: url("../../images/CaretDown.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   border: none;
   background-color: transparent;
+  transition: all 1s ease;
 }
 
 .departments__item:hover {
@@ -780,7 +769,24 @@ h1, h2, h3, h4, h5, h6, p {
   display: none;
 }
 
+.rotated {
+  transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 520px) {
+  .departments__name {
+    color: #333;
+    text-align: left;
+    font-size: 22px;
+  }
+}
 @media only screen and (min-width: 830px) {
+  .department__wrapper {
+    max-width: 793px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
   .departments__list-title {
     text-align: center;
     margin-top: 50px;
@@ -798,6 +804,11 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .departments__cards {
     justify-content: space-evenly;
+  }
+  .departments__name {
+    color: #333;
+    text-align: center;
+    font-size: 26px;
   }
 }
 @media only screen and (min-width: 1024px) {
