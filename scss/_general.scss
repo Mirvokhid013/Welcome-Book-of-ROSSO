@@ -18,7 +18,21 @@ body {
     flex-grow: 1;
 }
 
-ul, ol {
+header ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.hero ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.structure ul, ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;

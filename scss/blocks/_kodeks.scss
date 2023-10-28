@@ -1,0 +1,47 @@
+.kodeks {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.kodeks__title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #e04444;
+}
+
+.kodeks__mini-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #e04444;
+}
+
+@media only screen and (min-width: 830px) {
+    .kodeks {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    
+    .kodeks__title {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .kodeks__mini-title {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .kodeks__text {
+        font-size: 20px;
+    }
+
+    .kodeks__item {
+        font-size: 20px;
+    }
+}
