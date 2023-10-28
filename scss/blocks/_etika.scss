@@ -66,7 +66,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 20px;
     color: #e04444;
 }
 
@@ -83,6 +83,10 @@
 }
 
 @media only screen and (min-width: 810px) {
+
+    .subin__info {
+        font-size: 28px;
+    }
 
     .last__text {
         margin-top: 50px;
